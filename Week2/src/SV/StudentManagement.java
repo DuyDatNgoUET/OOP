@@ -97,7 +97,7 @@ public class StudentManagement {
         StudentManagement svList = new StudentManagement();
         svList.setSoSV(6);
         for(int i=0; i<svList.getSoSV();i++){
-            
+
         }
 
     }
