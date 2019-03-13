@@ -3,7 +3,7 @@ package neon.exercise1;
 import static java.lang.Math.abs;
 
 public class UCLN {
-   int UCLN(int a, int b){
+    public int ucln(int a, int b){
        int abs_a = abs(a);
        int abs_b = abs(b);
        if(abs_a==0 || abs_b ==0){
