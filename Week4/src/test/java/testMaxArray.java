@@ -9,5 +9,6 @@ public class testMaxArray {
         int maxarray = 4;
         int a =arrayMax.Max(mang);
         Assert.assertEquals(maxarray,a);
+
     }
 }
