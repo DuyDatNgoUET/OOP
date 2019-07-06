@@ -4,101 +4,108 @@ import java.util.ArrayList;
 
 public class StudentManagement {
 
-   Student[] sv = new Student[100];
-    int soSV =0;
+    Student[] students = new Student[100];
+    int soSV = 0;
 
-    public boolean sameGroup(Student s1, Student s2){
-        if(s1.getGroup().equals(s2.getGroup())) return true;
+    public static boolean sameGroup(Student s1, Student s2) {
+        if (s1.getGroup().equals(s2.getGroup())) return true;
         return false;
     }
 
-   public void setsoSV(int soSV){
-        this.soSV = soSV;
-   }
-   public int getsoSV(){
-        return this.soSV;
-   }
-
-    public int getSoSV() {
-        return soSV;
+    public void addStudent(Student newStudent) {
+        if (soSV < 100) {
+            students[soSV] = new Student();
+            students[soSV].setName(newStudent.getName());
+            students[soSV].setId(newStudent.getId());
+            students[soSV].setGroup(newStudent.getGroup());
+            students[soSV].setEmail(newStudent.getEmail());
+        }
+        soSV++;
     }
 
-    public void setSoSV(int soSV) {
-        this.soSV = soSV;
-    }
-
-    void studentsByGroup(){
+    public String studentsByGroup() {
         // sort
-        for(int i=0;i<this.soSV-1;i++){
-            int k=i;
-            for(int j=i+1;j<this.soSV;j++){
-                if(sameGroup(sv[i],sv[j])){
+        for (int i = 0; i < this.soSV - 1; i++) {
+            int k = i;
+            for (int j = i + 1; j < this.soSV; j++) {
+                if (sameGroup(students[i], students[j])) {
                     k++;
-                    Student temp = sv[j];
-                    sv[j]=sv[k];
-                    sv[k]= temp;
+                    Student temp = students[j];
+                    students[j] = students[k];
+                    students[k] = temp;
                 }
             }
         }
         //print
-        for(int i=0;i<this.soSV;i++){
-            sv[i].getInfo();
+        /*String s = students[0].getInfo();
+        for(int i=1;i<this.soSV;i++){
+            s +="\n"+students[i].getInfo();
         }
+        return s;*/
+        String all = "";
+        int arr[] = new int[100];
+        int t = 0;
+        arr[t] = 0;
+        int length = 0;
+
+        for (int i = 0; i < soSV - 1; i++) {
+            if (sameGroup(students[i], students[i + 1])) {
+                arr[t]++;
+            }
+
+            break;
+        }
+
+        System.out.println(length);
+
+        return all;
     }
 
-    void removeStudent(String id){
+    public void removeStudent(String id) {
 
-        while(sv[this.soSV-1].getId().equals(id)) this.soSV--;
+        while (students[this.soSV - 1].getId().equals(id)) this.soSV--;
         // if id on button array
 
-        for( int i=0; i< this.soSV; i++){
-            while(sv[i].getId().equals(id)){
-                for(int j=i;j<this.soSV-1;j++){
-                    sv[j]=sv[j+1];
+        for (int i = 0; i < this.soSV; i++) {
+            while (students[i].getId().equals(id)) {
+                for (int j = i; j < this.soSV - 1; j++) {
+                    students[j] = students[j + 1];
                 }
 
                 this.soSV--;
             }
         }
 
-        for(int i=0;i<this.soSV;i++){
-            sv[i].getInfo();
+        for (int i = 0; i < this.soSV; i++) {
+            students[i].getInfo();
         }
 
     }
 
-    public static void main(String[] args){
-        /*Student test1 = new Student();
-        Student test2 = new Student();
-        // show me
-        Student me = new Student();
-        me.setName("NDD");
-        me.setId("17021386");
-        me.setGroup("K62-N");
-        me.setEmail("ngoduydat1999@gmail.com");
-        System.out.println(me.getName());
-        System.out.println(me.getInfo()); // show all about me*/
+    public static void main(String[] args) {
+       /* StudentManagement SM = new StudentManagement();
+        Student test1 = new Student("Ngo Duy Dat", "170213XX", "vnuedu");
+        Student test2 = new Student("Sieu Van Nhan", "17971k", "12vnuedu");
+        Student test3 = new Student("Hoc Van Gioi", "567891H", "412vnuedu");
+        Student test5 = new Student("Sach Van Vo", "23456891H", "4678vnuedu");
 
-        /*
-        Test 3 method Student
-         */
-        /*Student test3 = new Student();
-        System.out.println(test3.getInfo());
-        Student test4 = new Student("NND", "ssa", "dhaj");
-        System.out.println(test4.getInfo());
-        Student test5 = new Student(test3);
-        System.out.println(test5.getInfo());
-        StudentManagement testAll = new StudentManagement();
-         if(testAll.sameGroup(test3,test4)== true){
-             System.out.println(" two class are same group");
-         }
-         else System.out.println(" two class aren't same group");*/
+        test2.setGroup("k68db");
 
-        StudentManagement svList = new StudentManagement();
-        svList.setSoSV(6);
-        for(int i=0; i<svList.getSoSV();i++){
+        Student test4 = new Student();
+        test4.setName("Ngo Thi Hong Linh");
+        test4.setId("2209528X");
+        test4.setGroup("K68db");
+        test4.setEmail("neu@gmail.com");
 
-        }
+        SM.addStudent(test1);
+        SM.addStudent(test4);
+        SM.addStudent(test2);
+        SM.addStudent(test3);
+        SM.addStudent(test5);
+
+
+        System.out.println(SM.studentsByGroup());*/
+
 
     }
 }

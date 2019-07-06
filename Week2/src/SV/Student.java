@@ -9,22 +9,22 @@ public class Student {
     Student(){
         name = "Student";
         id="000";
-        group = "K59CB";
+        group = "K62CB";
         email = "uet@vnu.edu.vn";
     }
 
-    Student(String n, String sid, String em){
-        this.group = "K59CB";
-        name = n;
-        id = sid;
-        email = em;
+    Student(String name, String id, String email){
+        this.group = "K62CB";
+        this.name = name;
+        this.id = id;
+        this.email = email;
     }
 
     Student (Student s){
-        name = s.getName();
-        group= s.getGroup();
-        id = s.getId();
-        email = s.getEmail();
+        this.name = s.getName();
+        this.group= s.getGroup();
+        this.id = s.getId();
+        this.email = s.getEmail();
     }
 
     //
@@ -58,9 +58,9 @@ public class Student {
 
     // show in screen name, id, group, email
     String getInfo(){
-        return getName()+" "+
-                getId() +" "+
-                getGroup()+" "+
-                getEmail();
+        return this.name+" - "+
+                this.id +" - "+
+                this.group+" - "+
+                this.email;
     }
 }
