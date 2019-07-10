@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6bb7560-c46a-4421-b932-83aea584f324" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PS/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neon/exercise1/Eratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neon/exercise1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestPolymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestPolymorphism/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/out/production/Week2/SV/StudentManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/out/production/Week2/SV/StudentManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/SV.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/SV/StudentManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/src/SV/StudentManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week3/neon/exercise1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week3/neon/exercise1/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week3/neon/exercise1/Fibonaxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week3/neon/exercise1/Fibonaxi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week3/neon/exercise1/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/week3/neon/exercise1/UCLN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week3/neon/exercise1/UCLN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neon/exercise1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neon/exercise1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week3/neon/exercise2/PS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neon/exercise1/Fibonaxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neon/exercise1/Fibonaxi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neon/exercise1/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/neon/exercise1/UCLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neon/exercise1/UCLN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neon/exercise2/PS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neon/exercise2/PS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neon/exercise2/PS.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,95 +28,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1303485422">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2019" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2019" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-623535371">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="564" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="564" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/neon/exercise1/UCLN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/neon/exercise2/PS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="208">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Eratosthenes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="32">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="21" column="13" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PS/Fraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Fibonaxi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="304">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -130,27 +104,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="F:/google-dictionary-master111/google-dictionary-master" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/neon/exercise1/Fibonaxi.java" />
         <option value="$PROJECT_DIR$/src/neon/exercise1/UCLN.java" />
-        <option value="$PROJECT_DIR$/src/neon/exercise1/Test.java" />
+        <option value="$PROJECT_DIR$/src/neon/exercise1/Eratosthenes.java" />
+        <option value="$PROJECT_DIR$/src/neon/exercise1/Solution.java" />
         <option value="$PROJECT_DIR$/src/neon/exercise2/PS.java" />
+        <option value="$PROJECT_DIR$/src/neon/exercise1/Test.java" />
+        <option value="$PROJECT_DIR$/src/PS/Fraction.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="80" />
-    <option name="width" value="932" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,51 +142,31 @@
             <path>
               <item name="week3" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="week3" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="neon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="neon" type="462c0819:PsiDirectoryNode" />
               <item name="exercise1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="week3" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="neon" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
+              <item name="PS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552440965662" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,9 +180,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.UCLN">
+    <configuration name="Eratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neon.exercise1.Eratosthenes" />
+      <module name="week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neon.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fibonaxi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neon.exercise1.Fibonaxi" />
+      <module name="week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neon.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neon.exercise1.Solution" />
       <module name="week3" />
       <extension name="coverage">
         <pattern>
@@ -255,13 +233,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UCLN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neon.exercise1.UCLN" />
+      <module name="week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neon.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Fibonaxi" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.UCLN" />
+      <item itemvalue="Application.Eratosthenes" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UCLN" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Eratosthenes" />
         <item itemvalue="Application.Fibonaxi" />
       </list>
     </recent_temporary>
@@ -281,8 +278,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +289,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31935483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3188406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -299,7 +297,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -310,35 +309,62 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/neon/exercise1/UCLN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Eratosthenes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/neon/exercise2/PS.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="21" column="13" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="32">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/neon/exercise1/Fibonaxi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/neon/exercise2/PS.java">
+    <entry file="file://$PROJECT_DIR$/src/PS/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="317">
+          <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

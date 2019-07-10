@@ -1,20 +1,19 @@
 package neon.exercise1;
 
+import java.util.Scanner;
+
 public class Fibonaxi {
-    // a=2 ; f(2) = f(1) + f(0)
-    // a=3 ; f(3) = f(2) + f(1) = f(1)+f(0) +f(1) = 2f(1) +1f(0)
-    // a=4 ; f(4) = f(3) + f(2) = 2f(1) +f(0) + f(1) + f(0)
-    // = 3f(1) + 2f(0)
+    public static int Fibonacci(int n) {
+        if(n==0) return 0;
+        else if (n == 1 || n == 2) return 1;
+        return Fibonacci(n - 1) + Fibonacci(n - 2);
+    }
 
-    // a=5 ; f(5) = f(4) +f(3) = 3f(1) +2f(0) + 2f(1) + 1f(0)
-    // = 5f(1) + 3f(0)
-      public int Fibonaxi(int n ){
-            if(n==0) return 0;
-            else if(n==1) return 1;
-            else if(n>=2) return (Fibonaxi(n-1) + Fibonaxi(n-2));
-            return 0;
-        }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int in = sc.nextInt();
 
-
-
+        int result =  Fibonaxi.Fibonacci(in);
+        System.out.println(result);
+    }
 }

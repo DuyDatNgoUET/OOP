@@ -23,7 +23,7 @@ public class StudentManagement {
         soSV++;
     }
 
-    public String studentsByGroup() {
+    /*public String studentsByGroup() {
         // sort
         for (int i = 0; i < this.soSV - 1; i++) {
             int k = i;
@@ -37,11 +37,11 @@ public class StudentManagement {
             }
         }
         //print
-        /*String s = students[0].getInfo();
+        String s = students[0].getInfo();
         for(int i=1;i<this.soSV;i++){
             s +="\n"+students[i].getInfo();
         }
-        return s;*/
+        return s;
         String all = "";
         int arr[] = new int[100];
         int t = 0;
@@ -59,7 +59,7 @@ public class StudentManagement {
         System.out.println(length);
 
         return all;
-    }
+    }*/
 
     public void removeStudent(String id) {
 

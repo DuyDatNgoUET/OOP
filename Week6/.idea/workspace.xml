@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d896bfb-431b-4ac2-bdb2-d8e46b3d0a30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Week5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3/src/PS/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3/src/neon/exercise1/Eratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3/src/neon/exercise1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestPolymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestPolymorphism/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/out/production/Week2/SV/StudentManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/out/production/Week2/SV/StudentManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/SV.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/SV/StudentManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week2/src/SV/StudentManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/out/production/week3/neon/exercise1/Fibonaxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/out/production/week3/neon/exercise1/Fibonaxi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/out/production/week3/neon/exercise1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/out/production/week3/neon/exercise1/UCLN.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/out/production/week3/neon/exercise1/UCLN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/out/production/week3/neon/exercise2/PS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/src/neon/exercise1/Fibonaxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/src/neon/exercise1/Fibonaxi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/src/neon/exercise1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/src/neon/exercise1/UCLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/src/neon/exercise1/UCLN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/src/neon/exercise2/PS.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="304">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -54,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -84,7 +100,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../week3" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,7 +135,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -144,8 +165,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="304">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
