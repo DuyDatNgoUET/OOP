@@ -1,19 +1,12 @@
-public class BinaryExpression extends Expression {
-    @Override
-    void modifier() {
-
-    }
-
-    private Expression right;
+abstract class BinaryExpression extends Expression {
     private Expression left;
+    private Expression right;
 
-    public BinaryExpression(Expression right, Expression left) {
-        this.right = right;
+    public BinaryExpression(Expression left, Expression right) {
         this.left = left;
+        this.right = right;
     }
 
-    @Override
-    public double evaluate() {
-        return 0;
-    }
+    abstract public Expression left();
+    abstract public Expression right();
 }

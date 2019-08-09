@@ -1,11 +1,30 @@
-public class Multiplication extends BinaryExpression {
-    public Multiplication(Expression right, Expression left) {
-        super(right, left);
+class Multiplication extends BinaryExpression {
+    private Expression left;
+    private Expression right;
+
+    public Multiplication (Expression left, Expression right)
+    {
+        super(left, right);
+    }
+
+    @Override
+    public Expression left() {
+        return left;
+    }
+
+    @Override
+    public Expression right() {
+        return right;
+    }
+
+    @Override
+    public String toString() {
+        String s = "(" + left.toString() + " * " + right.toString() + ")";
+        return s;
     }
 
     @Override
     public double evaluate() {
-        return 0;
-
+        return left.evaluate() * right.evaluate();
     }
 }

@@ -1,8 +1,5 @@
 public class Square extends Expression {
-    @Override
-    void modifier() {
 
-    }
 
     private Expression expression;
 
@@ -11,7 +8,13 @@ public class Square extends Expression {
     }
 
     @Override
+    public String toString() {
+        String s = "(" + expression.toString() + ")^2";
+        return s;
+    }
+
+    @Override
     public double evaluate() {
-        return 0;
+        return expression.evaluate() * expression.evaluate();
     }
 }

@@ -1,13 +1,7 @@
-abstract class Expression {
-    abstract void modifier();
+abstract class Expression{
 
     @Override
-    public String toString() {
-        return null;
-    }
+    abstract public String toString();
+    abstract public double evaluate();
 
-
-    public double evaluate(){
-        return 0;
-    }
 }

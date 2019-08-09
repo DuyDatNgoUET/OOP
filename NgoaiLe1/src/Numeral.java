@@ -1,8 +1,5 @@
 public class Numeral extends Expression {
-    @Override
-    void modifier() {
 
-    }
 
     private int value ;
 
@@ -14,7 +11,14 @@ public class Numeral extends Expression {
     }
 
     @Override
+    public String toString() {
+        String s = "";
+        s += value;
+        return s;
+    }
+
+    @Override
     public double evaluate() {
-        return 0;
+        return value;
     }
 }
