@@ -31,5 +31,11 @@ public class Circle implements GeometricObject {
         this.radius = radius;
     }
 
+    public Point getCenter() {
+        return center;
+    }
 
+    public void setCenter(Point center) {
+        this.center = center;
+    }
 }
