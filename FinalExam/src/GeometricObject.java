@@ -1,5 +1,5 @@
 interface GeometricObject {
-    public double getArea();
-    public double getPerimeter();
+     double getArea();
+     double getPerimeter();
     String getInfo();
 }
